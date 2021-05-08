@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(#c38c6c, #31474e);
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 30px;
+  float: left;
+}
+
+.nav-links,
+li,
+a {
+  font-size: 36px;
+  font-family: "Bowlby One", cursive;
+  color: #e4ded8;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav li {
+  margin-top: 5px;
+  margin-bottom: 50px;
+  display: inline-block;
+  padding: 10px;
+  padding-left: 100px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  position: aboslute;
+  margin-left: 900px;
+  margin-right: 100px;
+  justify-content: space-around;
+}
+
+.nav a {
+  display: block;
+  padding: 8px;
+  margin-right: 0;
+}
+
+.info h1 {
+  font-size: 80px;
+  font-family: "Bowlby One", cursive;
+  color: #e4ded8;
+  letter-spacing: 3px;
+  text-align: center;
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.info p {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  color: #e4ded8;
+  position: relative;
+  width: 30%;
+  margin-left: 350px;
+  text-align: center;
+}
+
+.explore {
+  background-color: #3a4d3a;
+  padding: 8px 12px 8px 12px;
+  font-family: "Poppins", sans-serif;
+  color: #e4ded8;
+  border-radius: 8px;
+  position: relative;
+  width: 100px;
+  margin-left: 680px;
+}
+
+.beer-bottles {
+  height: 650px;
+  width: 750px;
+  position: relative;
+  margin-left: 1500px;
+  margin-top: -500px;
+}
+
+.mountain-image {
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
